@@ -1,0 +1,3 @@
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\x64\Debug\AntonovPractic.vcxproj.AssemblyReference.cache
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\x64\Debug\AntonovPractic.MyForm.resources
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\x64\Debug\AntonovPractic.vcxproj.GenerateResource.cache
