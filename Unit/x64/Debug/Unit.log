@@ -1,0 +1,18 @@
+﻿  Unit.cpp
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\MyForm.cpp(65,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/Unit.cpp")
+  
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\MyForm.cpp(102,25): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/Unit.cpp")
+  
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\MyForm.cpp(162,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/Unit.cpp")
+  
+D:\VisualStudioRepo\AntonovPractic\Unit\Unit.cpp(36,64): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/Unit.cpp")
+  
+D:\VisualStudioRepo\AntonovPractic\Unit\Unit.cpp(40,54): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/Unit.cpp")
+  
+  AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Unit.vcxproj -> D:\VisualStudioRepo\AntonovPractic\x64\Debug\Unit.exe
