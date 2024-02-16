@@ -1,2 +1,6 @@
-﻿  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+﻿  MyForm.cpp
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\MyForm.cpp(65,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\MyForm.cpp(102,25): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\VisualStudioRepo\AntonovPractic\AntonovPractic\MyForm.cpp(162,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   AntonovPractic.vcxproj -> D:\VisualStudioRepo\AntonovPractic\x64\Debug\AntonovPractic.exe
