@@ -4,6 +4,11 @@
 #include <chrono> // Для измерения времени
 #include <cassert>
 
+// Название программы: Система демонстрации сортировок
+// Назначение программы: Демонстрация работы различных алгоритмов сортировки с возможностью визуализации результатов
+// Автор: Антонов С.С., группа 2091, 2 курс
+// Дата создания: 16.02.2024
+
 namespace AntonovPractic {
 
 	using namespace System;
@@ -16,6 +21,8 @@ namespace AntonovPractic {
 
 	/// <summary>
 	/// Сводка для MyForm
+	/// Класс MyForm служит для создания графического интерфейса пользователя, через который осуществляется ввод данных,
+	/// выбор алгоритма сортировки и визуализация результатов сортировки.
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -41,14 +48,14 @@ namespace AntonovPractic {
 		}
 
 	private:
-		System::Windows::Forms::TextBox^ inputTextBox;
-		System::Windows::Forms::Button^ sortButton;
-		System::Windows::Forms::ComboBox^ sortTypeComboBox;
-		System::Windows::Forms::TextBox^ outputTextBox;
-		System::Windows::Forms::Label^ timeLabel;
-		System::Windows::Forms::NumericUpDown^ numericUpDownSize; // Для ввода размера массива
-		System::Windows::Forms::Button^ generateButton; // Кнопка для генерации массива
-		System::ComponentModel::Container^ components;
+		System::Windows::Forms::TextBox^ inputTextBox; // Поле для ввода массива чисел пользователем
+		System::Windows::Forms::Button^ sortButton; // Кнопка для запуска процесса сортировки
+		System::Windows::Forms::ComboBox^ sortTypeComboBox; // Выпадающий список для выбора типа сортировки
+		System::Windows::Forms::TextBox^ outputTextBox; // Поле для вывода отсортированного массива
+		System::Windows::Forms::Label^ timeLabel; // Метка для отображения времени выполнения сортировки
+		System::Windows::Forms::NumericUpDown^ numericUpDownSize; // Элемент для указания размера генерируемого массива
+		System::Windows::Forms::Button^ generateButton; // Кнопка для генерации случайного массива чисел
+		System::ComponentModel::Container^ components; // Контейнер для хранения компонентов формы
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -152,8 +159,8 @@ namespace AntonovPractic {
 			this->PerformLayout();
 
 		}
-		void sortButton_Click(System::Object^ sender, System::EventArgs^ e);
-		void generateButton_Click(System::Object^ sender, System::EventArgs^ e); // Обработчик для генерации массива
+		void sortButton_Click(System::Object^ sender, System::EventArgs^ e); // Обработчик события клика по кнопке сортировки
+		void generateButton_Click(System::Object^ sender, System::EventArgs^ e); // Обработчик события клика по кнопке генерации массива
 
 #pragma endregion
 	};
